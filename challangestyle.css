@@ -1,0 +1,119 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#corpo{
+  width: 100vw;
+  height:100vh;
+  padding: 30px;
+  background-image:url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  width: 70vw;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.logocontainer{
+  margin: auto;
+  }
+
+  .logo{
+    width: 300px;
+    display: block;
+    margin: auto;
+  }
+
+
+.testa{
+  margin: auto;
+  width: 80%;
+}
+
+h1{
+  font-size:30px;
+  font-weight:300;
+  color:lime;
+  font-family: "Poppins" , sans-serif;
+  text-align: center;
+}
+
+/* sotto ci metto il nav */
+
+#lineaverde{
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 35%;
+  background-color: lime;
+}
+.bottoni{
+  display: block;
+  margin: auto;
+  width: auto;
+}
+
+.selezione{
+  text-align: center;
+  padding: 5px;
+}
+
+/* sezione main  */
+
+.main1{
+  margin-top: 15px;
+}
+
+.titolini{
+  display: inline-block;
+  margin-left: 5px;
+  color: white;
+  font-family: "Poppins";
+  font-weight: lighter;
+}
+
+.paragrafo{
+  color: white;
+  font-family: "Poppins";
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.sottotitolo{
+  color: white;
+  font-family: "Poppins";
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.containerlinee{
+  width: 500px;
+  height: 20px;
+}
+.lineagialla{
+  height: 100%;
+  width: 65%;
+  background-color: sandybrown;
+  border-radius: 5px;
+}
+
+.lineaverde2{
+  height: 100%;
+  width: 100%;
+  background-color: limegreen;
+  border-radius: 5px;
+}
+
+.linearossa{
+  height: 100%;
+  width: 25%;
+  background-color: brown;
+  border-radius: 5px;
+}
